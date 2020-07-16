@@ -61,24 +61,6 @@ def index():
         {
             'data': [
                 Bar(
-                    x=genre_names,
-                    y=genre_counts
-                )
-            ],
-
-            'layout': {
-                'title': 'Distribution of Message Genres',
-                'yaxis': {
-                    'title': "Count"
-                },
-                'xaxis': {
-                    'title': "Genre"
-                }
-            }
-        },
-        {
-            'data': [
-                Bar(
                     x=categories_names,
                     y=categories_counts
                 )
@@ -94,6 +76,26 @@ def index():
                 }
             }
         },
+
+        {
+            'data': [
+                Bar(
+                    x=genre_names,
+                    y=genre_counts
+                )
+            ],
+
+            'layout': {
+                'title': 'Distribution of Message Genres',
+                'yaxis': {
+                    'title': "Count"
+                },
+                'xaxis': {
+                    'title': "Genre"
+                }
+            }
+        },
+
         {
             'data': [
                 Heatmap(
