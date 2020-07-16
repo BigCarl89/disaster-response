@@ -11,10 +11,10 @@ In particular, the project is divided into three distinct parts:
 3. A web app based on Flask and Plotly (for visualization)
 
 ### Libraries and Python Version:
-Python 3.7.5
-Pandas, Numpy, Scikit-learn for data wrangling, cleaning and ML
-NLTK for NLP
-Flask and Plotly for the web app development
+Python 3.7.5  
+Pandas, Numpy, Scikit-learn for data wrangling, cleaning and ML  
+NLTK for NLP  
+Flask and Plotly for the web app development  
 
 
 ### Instructions:
